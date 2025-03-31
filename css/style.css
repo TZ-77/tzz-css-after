@@ -510,7 +510,13 @@ h6,
     padding-right: 0;
     border-right: none;
 }
-.bg-white p {
-    color: #212529; /* Bootstrap 預設深灰色，對比良好 */
+p {
+    color: #212529; /* Bootstrap text-dark 的值 */
 }
+.bg-white p,
+.bg-white span,
+.bg-white a {
+    color: #212529; /* 或其他深色文字 */
+}
+
 
