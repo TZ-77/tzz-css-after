@@ -518,5 +518,8 @@ p {
 .bg-white a {
     color: #212529; /* 或其他深色文字 */
 }
+.btn-dark {
+    color: white !important;
+}
 
 
